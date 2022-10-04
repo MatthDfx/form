@@ -29,13 +29,12 @@
               <input type="telephone" id="telephone" name="user_phone">
           </div>
           <div> <label for="sujet">Sujet :</label>
-              <input list="sujet" id=subject name="sujets">
-              <datalist id="sujet">
-                  <option value="Reclamation">
-                  <option value="Avis">
-                  <option value="Questions">
-                  <option value="SAV">
-              </datalist>
+              <select id=subject name="sujets">
+                  <option value="Reclamation">Reclamation</option>
+                  <option value="Avis">Avis </option>
+                  <option value="Questions"> Questions </option>
+                  <option value="SAV"> SAV </option>
+              </select>
 
               <div>
                   <label for="message">Message :</label>
